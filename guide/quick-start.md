@@ -1,6 +1,6 @@
 # 快速开始
 在本文, 我将引导您快速地熟悉本框架.  
-在阅读本文之后, 如果您将开始基于本框架进行开发, 我推荐您先阅读一遍我们的[参考手册](/reference)
+在阅读本文之后, 如果您将开始基于本框架进行开发, 我推荐您先阅读一遍我们的[参考手册](../reference)
 
 相信您已经在[README](/)中了解到一些关于本框架的用法了, 本文将作为补充, 带您详细介绍关于本框架的一些用法.
 
@@ -134,7 +134,7 @@ def index():
 ![request](/staitcs/request.png)
 
 关于其他 `context` 对象的详细内容, 详见:
-[reference/context](/reference/context)
+[reference/context](../reference/context)
 
 ### 流式传输
 某些时候, 我们要发送的数据内容大小是无法被猜测或者无穷无尽的, 例如从摄像头采集的视频数据. 因此我们可以使用流式传输方式来传输数据.
@@ -173,7 +173,7 @@ def index():
 - 不能在处理过程中只能调用一次 `response` 对象的响应方法(`response.make_stream()`, `response.make_response()`), `make_stream()` 与 `make_response()` 两者不能被重复或同时调用.
 
 - 如果在处理过程中没有调用 `response` 的响应方法, 则应该有一个确切的返回值(哪怕是空文本)  
-  返回值支持以下类型: `tuple`, `dict`, `list`, `str`, `bytes`, `bytearray`, `io.BytesIO`, 详见[这里](/reference/context/response#make_response)
+  返回值支持以下类型: `tuple`, `dict`, `list`, `str`, `bytes`, `bytearray`, `io.BytesIO`, 详见[这里](../reference/context/response#make_response)
 
 - 如果您使用了路由变量, 请确保有相同数量的参数且参数名称与定义的路由变量名称相对应
 
