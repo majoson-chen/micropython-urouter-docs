@@ -1,7 +1,7 @@
 # Table of contents
 
 * [主页](README.md)
-* [设计指南](guide/)
+* [设计指南](guide/guide.md)
   * [快速开始](guide/quick-start.md)
   * [路由变量](guide/rule-var.md)
   * [HTTP协议参考](guide/http-reference.md)
