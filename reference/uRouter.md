@@ -36,10 +36,10 @@ params:
 
 params:
 - rule: str  
-  设置路由规则文本, 可以使用路由变量, [详见](../quick-start/rule-var.html)
+  设置路由规则文本, 可以使用路由变量, [详见](https://urouter.m-jay.cn/quick-start/rule-var.html)
 
 - methods: iter = (GET, )  
-  设置欲监听的访问方式, 可选 `GET`, `POST` 等, 详见[常量](./consts.html)
+  设置欲监听的访问方式, 可选 `GET`, `POST` 等, 详见[常量](https://urouter.m-jay.cn/consts.html)
 
 - weight: int = 0  
   设置响应权重, 当多个请求同时发生的时候, 权重大的会优先被处理.
@@ -98,10 +98,10 @@ param:
 ## Attributes:
 
 ### request:
-用于客户端的请求信息, 详见[request](./context/resquest)
+用于客户端的请求信息, 详见[request](https://urouter.m-jay.cn/context/resquest)
 
 ### response:
-用于相应来自客户端的请求, 详见[response](./context/response)
+用于相应来自客户端的请求, 详见[response](https://urouter.m-jay.cn/context/response)
 
 ### session:
-用于获取客户端与服务端直接的回话信息, 详见[session](./context/session)
+用于获取客户端与服务端直接的回话信息, 详见[session](https://urouter.m-jay.cn/context/session)
