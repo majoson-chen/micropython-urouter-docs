@@ -98,10 +98,10 @@ param:
 ## Attributes:
 
 ### request:
-用于客户端的请求信息, 详见[request](./context/resquest.hmtl)
+用于客户端的请求信息, 详见[request](./context/resquest)
 
 ### response:
-用于相应来自客户端的请求, 详见[response](./context/response.html)
+用于相应来自客户端的请求, 详见[response](./context/response)
 
 ### session:
-用于获取客户端与服务端直接的回话信息, 详见[session](./context/session.html)
+用于获取客户端与服务端直接的回话信息, 详见[session](./context/session)

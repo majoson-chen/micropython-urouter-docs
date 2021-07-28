@@ -11,7 +11,7 @@
 </span>
 
 ## I need help
-I am not expert at English, so i need someone who is good at English helping me to translate the document into English.
+I am not expert at English, so i need someone who is good at English helping me to translate the document into English. see [here](/contribute)
 
 ## 这是什么
 
