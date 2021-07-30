@@ -2,7 +2,7 @@
 `request` 对象用来获取访问客户端的一些信息, 例如用户IP地址, 访问方式, 访问的URL, 访问参数, 表单信息等等.
 
 ## functions:
-无
+无 
 
 ## Attributes:
 - host: str  
